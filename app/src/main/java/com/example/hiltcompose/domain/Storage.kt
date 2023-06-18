@@ -7,7 +7,7 @@ class Storage(prefs: SharedPreferences) {
     private var savedText = "Empty"
 
     fun getSavedText(): String {
-        return "I'm injected!"
+        return savedText
     }
 
     fun setSavedText(text: String) {
