@@ -78,8 +78,6 @@ fun MainView(
     updateSavedText: (String) -> Unit
 ) {
 
-    val keyboardController = LocalSoftwareKeyboardController.current
-
     val width = 250.dp
     var text by remember { mutableStateOf("") }
 
